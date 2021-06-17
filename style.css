@@ -55,11 +55,12 @@ body {
 
 .close-card {
     position: absolute;
-    right: 5px;
-    top: 5px;
+    right: 2px;
+    top: -5px;
     cursor: pointer;
     transition: transform 1s ease;
     font-weight: bold;
+    font-size: 28px;
 }
 .close-card:hover {
     transform: rotate(180deg);
